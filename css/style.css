@@ -53,8 +53,9 @@ padding-left: 10px;
 
 .overlay #output_place {
     margin-top: 5%;
-    background: white;  /* optional: just make scrollbar invisible */
+    opacity: 1;
     color: black;
     overflow-y: auto;
     height:280px;
+    
 }
