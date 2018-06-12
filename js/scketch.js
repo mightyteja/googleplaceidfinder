@@ -3,21 +3,6 @@ var proxy = "https://cors-anywhere.herokuapp.com/"; // To bypass the Cross Domai
 //Breaking of the URL for Easier Navigation
 var url = 'https://maps.googleapis.com/maps/api/place/textsearch/json?query=';
 var query = $("#query"); //'Best Hotels in chennai';// // Getting the input from User
-
-function validateQuery() {
-    if (query == "") {
-        document.getElementById('errors_query').innerHTML = "*Please enter a place Name*";
-        return false;
-    }
-}
-function validateKey() {
-
-    if (key == "") {
-        document.getElementById('errors_key').innerHTML = "*Please type in the query*";
-        return false;
-    }
-
-}
 var key = '&key=';
 // xhr.setRequestHeader('Content-Type', 'application/json');
 var keyInput = $('#key');  // Key for authorization

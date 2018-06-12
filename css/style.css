@@ -22,6 +22,8 @@
 
 .open {
     float:left;
+    padding-top: 12px;
+padding-left: 10px;    
 
 }
 
@@ -51,6 +53,8 @@
 
 .overlay #output_place {
     margin-top: 5%;
+    background: white;  /* optional: just make scrollbar invisible */
     color: black;
-    background: white;
+    overflow-y: auto;
+    height:280px;
 }
