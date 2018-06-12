@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PA simple tool to find Google place ID </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <img src="images/background.jpeg" alt="" />
+        <div class="overlay">
+
+            <h6 class="open">This is a Open source Tool Please dont break it. You can find the code in the GitHub. Any Improvements to this
+                would be much appreciated </h3>
+               <a href="https://github.com/mightyteja/googleplaceidfinder">
+                <img  class="image-responsive open" src="images/GitHub-Mark-32px.png" alt="Github">
+            </a> 
+                <h2>Simple tool to find the Google Place ID</h6>
+                    
+            <div id="getInput">
+                <div class="col-md-4 placeName">
+                    <a href="">Please Type in your Place</a>
+                    <input id="query" type="text" class="input1 col-md-12 form-control" onblur="validateQuery()">
+                    <a href="">Please type in your Key</a>
+                    <input id="key" type="text" class="input2 col-md-12 form-control" onblur="validateKey()">
+                    <button type="submit" class='btn btn-primary' id="button1"> Place ID</button>
+                </div>
+               
+                <div class="col-md-6" id="output_place"></div>
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://apis.google.com/js/api.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        gapi.load('auth2', function () {
+            // Library loaded.
+        });
+    </script>
+    <script src="js/scketch.js"></script>
+</body>
+
+</html>
