@@ -1,5 +1,10 @@
 # googleplaceidfinder
 
+
+Please find the app on
+
+http://googleplaceidfinder.tesmachino.com/
+
 #Google PlaceID finder
 The page will extract the Place Id from the Google Maps so that you could use it for other applications. 
 
